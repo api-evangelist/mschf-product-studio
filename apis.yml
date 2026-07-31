@@ -1,8 +1,25 @@
 aid: mschf-product-studio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mschf-product-studio.png
 name: Mschf Product Studio
-description: Mschf Product Studio is a company surfaced as a portfolio company of canaan-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  MSCHF Product Studio, Inc. (pronounced "mischief") is a Brooklyn, New York-based art
+  collective and product studio founded in 2016 by Gabriel Whaley. It is known for viral,
+  limited-edition "drops" released roughly every two weeks — from the Big Red Boots to
+  Satan Shoes, The Persistence of Chaos, and Tax Heaven 3000 — and operates primarily
+  through its own website and brand partnerships. In 2025 it launched Applied MSCHF, an
+  advertising agency. MSCHF is a portfolio company of Canaan Partners. No public developer
+  API surface was found during enrichment; this remains a company/identity profile.
 url: https://raw.githubusercontent.com/api-evangelist/mschf-product-studio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +29,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Art Collective
+- Product Studio
+- Consumer
+- E-commerce
+- Creative Agency
+- Brooklyn
 apis: []
+common:
+- type: Website
+  url: https://mschf.com
+- type: GitHubOrganization
+  url: https://github.com/MSCHF
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
